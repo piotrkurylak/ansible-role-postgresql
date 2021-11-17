@@ -1,0 +1,15 @@
+--- 
+  
+- name: Import the repository signing key.
+  apt_key:
+    url: "{{ postgresql_apt_key }}"
+    state: present
+
+- name: Add PostgreSQL repository.
+  apt_repository:
+    repo: "{{ postgresql_repo_url }}"
+    state: present
+    filename: pgdg
+    update_cache: yes
+
+

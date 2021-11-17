@@ -1,0 +1,9 @@
+---
+
+- include_tasks: setup-Debian.yml
+  when: ansible_os_family == "Debian"
+
+- name: Ensure that PostgreSQL is installed.
+  apt:
+    name: "{{ postgresql_version }}"
+    state: present

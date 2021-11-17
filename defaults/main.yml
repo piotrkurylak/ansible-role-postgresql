@@ -1,0 +1,7 @@
+---
+
+postgresql_repo_url: "deb http://apt.postgresql.org/pub/repos/apt {{ ansible_distribution_release }}-pgdg main"
+postgresql_apt_key: "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+# If you want a specific version, use 'postgresql-14'.
+# By default it installs the latest version.
+postgresql_version: "postgresql"
