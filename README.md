@@ -19,11 +19,19 @@ postgresql_apt_key: "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
 
 ````
 
-
-## Postgresql version. 
-If you want a specific version, use 'postgresql-14'.By default this installs the latest version.
+Postgresql version. If you want a specific version, use 'postgresql-14'.By default this installs the latest version.
 ````yaml
 postgresql_version: "postgresql"
+````
+
+Postgresql keyring file.
+````yaml
+postgres_apt_keyring_path: "/usr/share/keyrings/postgresql-archive-keyring.gpg"
+````
+
+Postgresql prerequisites.
+````yaml
+postgresql_prerequisites: [gnupg2, ca-certificates, debian-archive-keyring]
 ````
 
 
