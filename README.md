@@ -45,7 +45,7 @@ None.
     - hosts: all
       become: yes
       roles:
-         - postgresql
+         - ansible-role-postgresql
 ````
 
 ## License
