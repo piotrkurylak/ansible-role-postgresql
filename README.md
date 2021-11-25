@@ -19,8 +19,9 @@ postgresql_apt_key: "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
 
 ````
 
-Postgresql version. If you want a specific version, use 'postgresql-14'.
-# By default this installs the latest version.
+
+## Postgresql version. 
+If you want a specific version, use 'postgresql-14'.By default this installs the latest version.
 ````yaml
 postgresql_version: "postgresql"
 ````
