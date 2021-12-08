@@ -7,19 +7,7 @@ galaxy_info:
   min_ansible_version: 2.9
 
 
-   platforms:
-   - name: Debian
-     versions:
-     - 9/10
-
-
-  galaxy_tags: [
-    - Debian
-    - Database
-    - PostgreSQL
-    - Buster
-    - Bullseye
-  ]
+  galaxy_tags: []
 
 
 dependencies: []
