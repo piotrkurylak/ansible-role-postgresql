@@ -10,7 +10,7 @@ None.
 
 Postgresql repository URL depending on distro. 
 ````yaml
-postgresql_repo_url: "deb http://apt.postgresql.org/pub/repos/apt {{ ansible_distribution_release }}-pgdg main"
+postgresql_repo_url: "deb https://apt.postgresql.org/pub/repos/apt {{ ansible_distribution_release }}-pgdg main"
 ````
 
 Postgresql repository signing key.
